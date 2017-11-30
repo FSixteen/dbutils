@@ -1,0 +1,364 @@
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:1:	Possible God class (WMC=48, ATFD=24, TCC=0.0)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:22:	Avoid using redundant field initializer for 'ip'
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:22:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:22:	Private field 'ip' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:22:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:23:	Avoid using redundant field initializer for 'port'
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:23:	Private field 'port' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:23:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:24:	Avoid using redundant field initializer for 'database'
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:24:	Private field 'database' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:24:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:25:	Avoid using redundant field initializer for 'user'
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:25:	Private field 'user' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:25:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:26:	Avoid using redundant field initializer for 'password'
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:26:	Private field 'password' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:26:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:27:	Avoid using redundant field initializer for 'con'
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:27:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:29:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:43:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:43:	Parameter 'database' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:43:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:43:	Parameter 'password' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:43:	Parameter 'port' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:43:	Parameter 'user' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:58:	Found 'DU'-anomaly for variable 'url' (lines '58'-'71').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:58:	Local variable 'url' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:62:	This for loop could be simplified to a while loop
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:62:	Useless parentheses.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:66:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:67:	System.out.println is used
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:68:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:73:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:87:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:87:	Parameter 'database' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:87:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:87:	Parameter 'port' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:87:	Parameter 'user' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:87:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:88:	Parameter 'password' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:90:	Found 'DU'-anomaly for variable 'url' (lines '90'-'104').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:90:	Local variable 'url' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:95:	This for loop could be simplified to a while loop
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:95:	Useless parentheses.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:99:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:100:	System.out.println is used
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:101:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:106:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:119:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:119:	Parameter 'lable' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:119:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:120:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:121:	Local variable 'list' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:122:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:122:	Found 'DD'-anomaly for variable 'ps' (lines '122'-'125').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:123:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:123:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:123:	Found 'DD'-anomaly for variable 'rs' (lines '123'-'131').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:128:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:132:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:133:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:136:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:143:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:158:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:158:	Parameter 'key' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:158:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:159:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:159:	Parameter 'value' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:160:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:160:	Local variable 'list' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:161:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:161:	Found 'DD'-anomaly for variable 'ps' (lines '161'-'164').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:162:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:162:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:162:	Found 'DD'-anomaly for variable 'rs' (lines '162'-'170').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:167:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:167:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:170:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:171:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:172:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:172:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:175:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:182:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:193:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:193:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:194:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:195:	Local variable 'list' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:196:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:196:	Found 'DD'-anomaly for variable 'ps' (lines '196'-'199').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:197:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:197:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:197:	Found 'DD'-anomaly for variable 'rs' (lines '197'-'205').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:202:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:202:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:206:	Avoid variables with short names like md
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:206:	Found 'DU'-anomaly for variable 'md' (lines '206'-'224').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:206:	Local variable 'md' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:206:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:207:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:208:	Avoid instantiating new objects inside loops
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:208:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:208:	Local variable 'map' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:209:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:211:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:211:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:211:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:212:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:219:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:226:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:237:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:237:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:237:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:238:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:238:	Found 'DD'-anomaly for variable 'ps' (lines '238'-'241').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:239:	Found 'DD'-anomaly for variable 'value' (lines '239'-'247').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:244:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:244:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:247:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:249:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:256:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:269:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:269:	Parameter 'lable' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:269:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:270:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:271:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:271:	Found 'DD'-anomaly for variable 'ps' (lines '271'-'275').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:272:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:272:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:272:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:272:	Found 'DD'-anomaly for variable 'rs' (lines '272'-'281').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:273:	Found 'DD'-anomaly for variable 'value' (lines '273'-'283').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:278:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:278:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:281:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:282:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:283:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:285:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:300:	Found 'UR'-anomaly for variable 'obj' (lines '300'-'304').
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:300:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:303:	Local variable 'obj' could be declared final
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:305:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:309:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:313:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:318:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:319:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/MysqlUtils.java:320:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:1:	Possible God class (WMC=58, ATFD=29, TCC=0.03571428571428571)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:22:	Avoid using redundant field initializer for 'ip'
+src/main/java/s/j/liu/dbutils/OracleUtils.java:22:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/OracleUtils.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:22:	Private field 'ip' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:22:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/OracleUtils.java:23:	Avoid using redundant field initializer for 'port'
+src/main/java/s/j/liu/dbutils/OracleUtils.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:23:	Private field 'port' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:23:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/OracleUtils.java:24:	Avoid using redundant field initializer for 'database'
+src/main/java/s/j/liu/dbutils/OracleUtils.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:24:	Private field 'database' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:24:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/OracleUtils.java:25:	Avoid using redundant field initializer for 'user'
+src/main/java/s/j/liu/dbutils/OracleUtils.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:25:	Private field 'user' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:25:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/OracleUtils.java:26:	Avoid using redundant field initializer for 'password'
+src/main/java/s/j/liu/dbutils/OracleUtils.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:26:	Private field 'password' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:26:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/OracleUtils.java:27:	Avoid using redundant field initializer for 'con'
+src/main/java/s/j/liu/dbutils/OracleUtils.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:27:	fieldCommentRequirement Required
+src/main/java/s/j/liu/dbutils/OracleUtils.java:29:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:43:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/OracleUtils.java:43:	Parameter 'database' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:43:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:43:	Parameter 'password' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:43:	Parameter 'port' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:43:	Parameter 'user' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:58:	Do not add empty strings
+src/main/java/s/j/liu/dbutils/OracleUtils.java:58:	Found 'DU'-anomaly for variable 'url' (lines '58'-'70').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:58:	Local variable 'url' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:60:	This for loop could be simplified to a while loop
+src/main/java/s/j/liu/dbutils/OracleUtils.java:60:	Useless parentheses.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:61:	The String literal "oracle.jdbc.driver.OracleDriver" appears 4 times in this file; the first occurrence is on line 61
+src/main/java/s/j/liu/dbutils/OracleUtils.java:63:	System.out.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:63:	The String literal "Get Oracle database connection OK." appears 4 times in this file; the first occurrence is on line 63
+src/main/java/s/j/liu/dbutils/OracleUtils.java:65:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/OracleUtils.java:66:	System.err.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:66:	The String literal "Cannot get Oracle database connection." appears 4 times in this file; the first occurrence is on line 66
+src/main/java/s/j/liu/dbutils/OracleUtils.java:67:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:72:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:86:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/OracleUtils.java:86:	Parameter 'database' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:86:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:86:	Parameter 'port' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:86:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:87:	Parameter 'password' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:87:	Parameter 'user' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:90:	Do not add empty strings
+src/main/java/s/j/liu/dbutils/OracleUtils.java:90:	Found 'DU'-anomaly for variable 'url' (lines '90'-'102').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:90:	Local variable 'url' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:92:	This for loop could be simplified to a while loop
+src/main/java/s/j/liu/dbutils/OracleUtils.java:92:	Useless parentheses.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:95:	System.out.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:97:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/OracleUtils.java:98:	System.err.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:99:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:111:	Do not add empty strings
+src/main/java/s/j/liu/dbutils/OracleUtils.java:111:	Found 'DU'-anomaly for variable 'url' (lines '111'-'124').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:111:	Local variable 'url' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:112:	An empty statement (semicolon) not part of a loop
+src/main/java/s/j/liu/dbutils/OracleUtils.java:114:	This for loop could be simplified to a while loop
+src/main/java/s/j/liu/dbutils/OracleUtils.java:114:	Useless parentheses.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:117:	System.out.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:119:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/OracleUtils.java:120:	System.err.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:121:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:126:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:140:	Avoid variables with short names like ip
+src/main/java/s/j/liu/dbutils/OracleUtils.java:140:	Parameter 'database' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:140:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:140:	Parameter 'port' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:140:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:141:	Parameter 'password' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:141:	Parameter 'user' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:144:	Do not add empty strings
+src/main/java/s/j/liu/dbutils/OracleUtils.java:144:	Found 'DU'-anomaly for variable 'url' (lines '144'-'157').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:144:	Local variable 'url' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:145:	An empty statement (semicolon) not part of a loop
+src/main/java/s/j/liu/dbutils/OracleUtils.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:147:	This for loop could be simplified to a while loop
+src/main/java/s/j/liu/dbutils/OracleUtils.java:147:	Useless parentheses.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:150:	System.out.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:152:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/OracleUtils.java:153:	System.err.println is used
+src/main/java/s/j/liu/dbutils/OracleUtils.java:154:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:159:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:172:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:172:	Parameter 'lable' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:172:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:173:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:174:	Local variable 'list' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:175:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/OracleUtils.java:175:	Found 'DD'-anomaly for variable 'ps' (lines '175'-'178').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:176:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/OracleUtils.java:176:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/OracleUtils.java:176:	Found 'DD'-anomaly for variable 'rs' (lines '176'-'184').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:181:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:185:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:186:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:189:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:196:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:211:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:211:	Parameter 'key' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:211:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:212:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:212:	Parameter 'value' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:213:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/s/j/liu/dbutils/OracleUtils.java:213:	Local variable 'list' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:214:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/OracleUtils.java:214:	Found 'DD'-anomaly for variable 'ps' (lines '214'-'217').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:215:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/OracleUtils.java:215:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/OracleUtils.java:215:	Found 'DD'-anomaly for variable 'rs' (lines '215'-'223').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:220:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:220:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:223:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:224:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:228:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:235:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:246:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:246:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:247:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:248:	Local variable 'list' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:249:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/OracleUtils.java:249:	Found 'DD'-anomaly for variable 'ps' (lines '249'-'252').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:250:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/OracleUtils.java:250:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/OracleUtils.java:250:	Found 'DD'-anomaly for variable 'rs' (lines '250'-'258').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:255:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:255:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:258:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:259:	Avoid variables with short names like md
+src/main/java/s/j/liu/dbutils/OracleUtils.java:259:	Found 'DU'-anomaly for variable 'md' (lines '259'-'277').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:259:	Local variable 'md' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:260:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:261:	Avoid instantiating new objects inside loops
+src/main/java/s/j/liu/dbutils/OracleUtils.java:261:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/s/j/liu/dbutils/OracleUtils.java:261:	Local variable 'map' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:262:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:264:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:264:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:264:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:265:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/OracleUtils.java:266:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:266:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:266:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:272:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:279:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:290:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:290:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:290:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:291:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/OracleUtils.java:291:	Found 'DD'-anomaly for variable 'ps' (lines '291'-'294').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:292:	Found 'DD'-anomaly for variable 'value' (lines '292'-'300').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:297:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:297:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:300:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:302:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:309:	Comment is too large: Too many lines
+src/main/java/s/j/liu/dbutils/OracleUtils.java:322:	Parameter 'con' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:322:	Parameter 'lable' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:322:	Parameter 'sql' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:323:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:324:	Avoid variables with short names like ps
+src/main/java/s/j/liu/dbutils/OracleUtils.java:324:	Found 'DD'-anomaly for variable 'ps' (lines '324'-'328').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:325:	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:325:	Avoid variables with short names like rs
+src/main/java/s/j/liu/dbutils/OracleUtils.java:325:	Ensure that resources like this ResultSet object are closed after use
+src/main/java/s/j/liu/dbutils/OracleUtils.java:325:	Found 'DD'-anomaly for variable 'rs' (lines '325'-'334').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:326:	Found 'DD'-anomaly for variable 'value' (lines '326'-'336').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:331:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:331:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:334:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:335:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:336:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:338:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/s/j/liu/dbutils/OracleUtils.java:353:	Found 'UR'-anomaly for variable 'obj' (lines '353'-'357').
+src/main/java/s/j/liu/dbutils/OracleUtils.java:353:	Parameter 'objects' is not assigned and could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:356:	Local variable 'obj' could be declared final
+src/main/java/s/j/liu/dbutils/OracleUtils.java:358:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:362:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:366:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/s/j/liu/dbutils/OracleUtils.java:371:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/s/j/liu/dbutils/OracleUtils.java:372:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/s/j/liu/dbutils/OracleUtils.java:373:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/s/j/liu/dbutils/AppTest.java:15:	Avoid using short method names
+src/test/java/s/j/liu/dbutils/AppTest.java:15:	publicMethodCommentRequirement Required
+src/test/java/s/j/liu/dbutils/AppTest.java:16:	System.out.println is used
+src/test/java/s/j/liu/dbutils/AppTest.java:25:	Parameter 'testName' is not assigned and could be declared final
+src/test/java/s/j/liu/dbutils/AppTest.java:32:	JUnit 4 indicates test suites via annotations, not the suite method.
+src/test/java/s/j/liu/dbutils/AppTest.java:39:	JUnit 4 tests that execute tests should use the @Test annotation
+src/test/java/s/j/liu/dbutils/AppTest.java:40:	JUnit assertions should include a message
+src/test/java/s/j/liu/dbutils/AppTest.java:40:	assertTrue(true) or similar statements are unnecessary
