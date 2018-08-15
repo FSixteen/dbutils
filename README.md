@@ -1,2 +1,4 @@
-# dbutils
-database utils
+Java JDBC 工具包
+---
+
+>  本工具包仅供测试学习使用.
