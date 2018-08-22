@@ -2,7 +2,9 @@ package com.xyshzh.database;
 
 import java.io.Serializable;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
@@ -13,6 +15,8 @@ import java.util.Map;
  * @date 2018-08-15
  */
 public interface IDatabaseExecute extends Serializable {
+
+  static int FETCH_SIZE = 1000;
 
   /**
    * 获取数据库链接.
@@ -70,6 +74,18 @@ public interface IDatabaseExecute extends Serializable {
   <T> T getResult(String sql, String lable, Object... objects);
 
   /**
+   * 获取PreparedStatement.
+   * 
+   * @param sql
+   *          执行语句.
+   * @param objects
+   *          注入参数列表.
+   * @return PreparedStatement
+   * @throws SQLException
+   */
+  PreparedStatement getPreparedStatement(String sql, Object... objects) throws SQLException;
+
+  /**
    * 获取查询结果集合.
    * 
    * @param sql
@@ -95,7 +111,11 @@ public interface IDatabaseExecute extends Serializable {
    * @param objects
    *          as Connection or as Statement or as PreparedStatement or as
    *          ResultSet.
-   * @return boolean
    */
   void closeResource(Object... objects);
+
+  /**
+   * 关闭数据库资源.
+   */
+  void close();
 }

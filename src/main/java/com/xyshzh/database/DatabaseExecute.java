@@ -19,12 +19,18 @@ import java.util.Map;
 @SuppressWarnings("serial")
 public abstract class DatabaseExecute implements IDatabaseExecute {
 
+  private List<PreparedStatement> psList = new ArrayList<>();
+
   public List<Map<String, Object>> getResultListMap(String sql, Object... objects) {
     List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();
-    ResultSet rs = getResult(sql, 1000, objects);
+    PreparedStatement ps = null;
+    ResultSet rs = null;
     try {
+      ps = getPreparedStatement(sql, objects);
+      rs = ps.executeQuery();
+      rs.setFetchSize(FETCH_SIZE);
       ResultSetMetaData md = rs.getMetaData();
-      while (null != rs && rs.next()) {
+      while (rs.next()) {
         Map<String, Object> map = new HashMap<String, Object>();
         for (int i = 1; i <= md.getColumnCount(); i++) {
           try {
@@ -38,7 +44,7 @@ public abstract class DatabaseExecute implements IDatabaseExecute {
     } catch (SQLException e) {
       e.printStackTrace();
     } finally {
-      closeResource(rs);
+      closeResource(rs, ps);
     }
     return list;
   }
@@ -46,25 +52,33 @@ public abstract class DatabaseExecute implements IDatabaseExecute {
   @SuppressWarnings("unchecked")
   public <T> List<T> getResultList(String sql, String lable, Object... objects) {
     List<T> list = new ArrayList<>();
-    ResultSet rs = getResult(sql, 1000, objects);
+    PreparedStatement ps = null;
+    ResultSet rs = null;
     try {
-      while (null != rs && rs.next()) {
+      ps = getPreparedStatement(sql, objects);
+      rs = ps.executeQuery();
+      rs.setFetchSize(FETCH_SIZE);
+      while (rs.next()) {
         list.add((T) rs.getObject(lable));
       }
     } catch (SQLException e) {
       e.printStackTrace();
     } finally {
-      closeResource(rs);
+      closeResource(rs, ps);
     }
     return list;
   }
 
   public Map<String, Object> getResultMap(String sql, Object... objects) {
     Map<String, Object> map = new HashMap<String, Object>();
-    ResultSet rs = getResult(sql, 1, objects);
+    PreparedStatement ps = null;
+    ResultSet rs = null;
     try {
+      ps = getPreparedStatement(sql, objects);
+      rs = ps.executeQuery();
+      rs.setFetchSize(FETCH_SIZE);
       ResultSetMetaData md = rs.getMetaData();
-      if (null != rs && rs.next()) {
+      if (rs.next()) {
         for (int i = 1; i <= md.getColumnCount(); i++) {
           try {
             map.put(md.getColumnLabel(i), rs.getString(md.getColumnLabel(i)));
@@ -76,43 +90,54 @@ public abstract class DatabaseExecute implements IDatabaseExecute {
     } catch (SQLException e) {
       e.printStackTrace();
     } finally {
-      closeResource(rs);
+      closeResource(rs, ps);
     }
     return map;
   }
 
   @SuppressWarnings("unchecked")
   public <T> T getResult(String sql, String lable, Object... objects) {
-    ResultSet rs = getResult(sql, 1, objects);
+    PreparedStatement ps = null;
+    ResultSet rs = null;
     T value = null;
     try {
-      if (null != rs && rs.next()) {
+      ps = getPreparedStatement(sql, objects);
+      rs = ps.executeQuery();
+      rs.setFetchSize(FETCH_SIZE);
+      if (rs.next()) {
         value = (T) rs.getObject(lable);
       }
     } catch (SQLException e) {
       e.printStackTrace();
     } finally {
-      closeResource(rs);
+      closeResource(rs, ps);
     }
     return value;
+  }
+
+  public PreparedStatement getPreparedStatement(String sql, Object... objects) throws SQLException {
+    PreparedStatement ps = null;
+    ps = getConnection().prepareStatement(sql);
+    if (null != objects && objects.length > 0) {
+      for (int i = 0; i < objects.length; i++) {
+        ps.setObject((i + 1), objects[i]);
+      }
+    }
+    return ps;
   }
 
   public ResultSet getResult(String sql, Integer fetchSize, Object... objects) {
     PreparedStatement ps = null;
     ResultSet rs = null;
     try {
-      ps = getConnection().prepareStatement(sql);
-      if (null != objects && objects.length > 0) {
-        for (int i = 0; i < objects.length; i++) {
-          ps.setObject((i + 1), objects[i]);
-        }
-      }
+      ps = getPreparedStatement(sql, objects);
       rs = ps.executeQuery();
       rs.setFetchSize(fetchSize);
     } catch (SQLException e) {
       e.printStackTrace();
     } finally {
       // closeResource(ps);
+      psList.add(ps);
     }
     return rs;
   }
@@ -129,6 +154,14 @@ public abstract class DatabaseExecute implements IDatabaseExecute {
         }
       }
     }
+  }
+
+  public void close() {
+    // 关闭getResult时未关闭的PreparedStatement集合.
+    closeResource(psList.toArray());
+    // 关闭Connection数据库链接.
+    closeResource(getConnection());
+    System.out.println("数据库链接已执行关闭.");
   }
 
 }
